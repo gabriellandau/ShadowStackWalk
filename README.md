@@ -2,7 +2,7 @@
 
 [Gabriel Landau](https://twitter.com/GabrielLandau) @ [Elastic Security](https://www.elastic.co/security-labs/security-research)
 
-See the accompanying Elastic Security Labs article, [Finding Truth in the Shadows](http://tiny.cc/FindingTruthInTheShadows).
+See the accompanying Elastic Security Labs article, [Finding Truth in the Shadows](https://www.elastic.co/security-labs/finding-truth-in-the-shadows).
 
 The shadow stack provides an interesting detection opportunity.  Adversaries can use tools like [ThreadStackSpoofer](https://github.com/mgeeky/ThreadStackSpoofer/tree/master) and [CallStackSpoofer](https://github.com/WithSecureLabs/CallStackSpoofer) to obfuscate their presence against thread stack scans (e.g. `StackWalk64`) and inline stack traces like [Sysmon operations](https://www.lares.com/blog/hunting-in-the-sysmon-call-trace/).
 
